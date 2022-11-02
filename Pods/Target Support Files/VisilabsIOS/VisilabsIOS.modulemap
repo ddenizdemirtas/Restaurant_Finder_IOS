@@ -1,0 +1,6 @@
+framework module VisilabsIOS {
+  umbrella header "VisilabsIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

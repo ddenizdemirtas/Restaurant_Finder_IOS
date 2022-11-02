@@ -7,23 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020C8174288547A300B06218 /* AddRestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020C8173288547A300B06218 /* AddRestaurantsViewController.swift */; };
+		020C817628854AD900B06218 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 020C817528854AD900B06218 /* GoogleService-Info.plist */; };
 		0236DD60286AF1E10024D713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0236DD5F286AF1E10024D713 /* AppDelegate.swift */; };
 		0236DD62286AF1E10024D713 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0236DD61286AF1E10024D713 /* SceneDelegate.swift */; };
 		0236DD64286AF1E10024D713 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0236DD63286AF1E10024D713 /* ViewController.swift */; };
-		0236DD67286AF1E10024D713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0236DD65286AF1E10024D713 /* Main.storyboard */; };
 		0236DD69286AF1E20024D713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0236DD68286AF1E20024D713 /* Assets.xcassets */; };
 		0236DD6C286AF1E20024D713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0236DD6A286AF1E20024D713 /* LaunchScreen.storyboard */; };
+		0236DD78286B302B0024D713 /* jsonCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0236DD77286B302B0024D713 /* jsonCall.swift */; };
+		0236DD842876C0CA0024D713 /* tableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0236DD832876C0CA0024D713 /* tableViewCell.swift */; };
+		02451DD42885000500520910 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 02451DD32885000500520910 /* FirebaseAnalytics */; };
+		02451DD62885000500520910 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 02451DD52885000500520910 /* FirebaseAnalyticsOnDeviceConversion */; };
+		02451DD82885000500520910 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 02451DD72885000500520910 /* FirebaseAnalyticsSwift */; };
+		02451DDA2885000500520910 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 02451DD92885000500520910 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		02451DDC2885000500520910 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 02451DDB2885000500520910 /* FirebaseFirestore */; };
+		02451DDE2885000500520910 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 02451DDD2885000500520910 /* FirebaseFirestoreCombine-Community */; };
+		02451DE02885000500520910 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 02451DDF2885000500520910 /* FirebaseFirestoreSwift */; };
+		02451DE22885000500520910 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 02451DE12885000500520910 /* FirebaseStorage */; };
+		02451DE42885000500520910 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 02451DE32885000500520910 /* FirebaseStorageCombine-Community */; };
+		028E6A45287C51D3008A7600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028E6A44287C51D3008A7600 /* Main.storyboard */; };
+		028E6A4B287C5C4E008A7600 /* RestaurantDetailsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028E6A4A287C5C4E008A7600 /* RestaurantDetailsSwiftUIView.swift */; };
+		028E6A4F287C5F1E008A7600 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028E6A4E287C5F1E008A7600 /* RestaurantDetailViewController.swift */; };
+		0C37E0226009076F1290E688 /* Pods_RestaurantReviewApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E37A9715B27CF23A494B82 /* Pods_RestaurantReviewApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		020C8173288547A300B06218 /* AddRestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRestaurantsViewController.swift; sourceTree = "<group>"; };
+		020C817528854AD900B06218 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0236DD5C286AF1E10024D713 /* RestaurantReviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantReviewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0236DD5F286AF1E10024D713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0236DD61286AF1E10024D713 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0236DD63286AF1E10024D713 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0236DD66286AF1E10024D713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0236DD68286AF1E20024D713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0236DD6B286AF1E20024D713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0236DD6D286AF1E20024D713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0236DD77286B302B0024D713 /* jsonCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonCall.swift; sourceTree = "<group>"; };
+		0236DD832876C0CA0024D713 /* tableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewCell.swift; sourceTree = "<group>"; };
+		028E6A44287C51D3008A7600 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		028E6A4A287C5C4E008A7600 /* RestaurantDetailsSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsSwiftUIView.swift; sourceTree = "<group>"; };
+		028E6A4E287C5F1E008A7600 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		11E37A9715B27CF23A494B82 /* Pods_RestaurantReviewApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestaurantReviewApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E544B115C0259D50443708 /* Pods-RestaurantReviewApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantReviewApp.debug.xcconfig"; path = "Target Support Files/Pods-RestaurantReviewApp/Pods-RestaurantReviewApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B275F1EF246393E13CC64945 /* Pods-RestaurantReviewApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantReviewApp.release.xcconfig"; path = "Target Support Files/Pods-RestaurantReviewApp/Pods-RestaurantReviewApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +56,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02451DD82885000500520910 /* FirebaseAnalyticsSwift in Frameworks */,
+				02451DDA2885000500520910 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				02451DE42885000500520910 /* FirebaseStorageCombine-Community in Frameworks */,
+				02451DE22885000500520910 /* FirebaseStorage in Frameworks */,
+				02451DD42885000500520910 /* FirebaseAnalytics in Frameworks */,
+				02451DD62885000500520910 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				0C37E0226009076F1290E688 /* Pods_RestaurantReviewApp.framework in Frameworks */,
+				02451DDC2885000500520910 /* FirebaseFirestore in Frameworks */,
+				02451DDE2885000500520910 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				02451DE02885000500520910 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +77,8 @@
 			children = (
 				0236DD5E286AF1E10024D713 /* RestaurantReviewApp */,
 				0236DD5D286AF1E10024D713 /* Products */,
+				EB374D8266EEF23AE43E96A5 /* Pods */,
+				C0B0CED71E2A11A87274341E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +96,35 @@
 				0236DD5F286AF1E10024D713 /* AppDelegate.swift */,
 				0236DD61286AF1E10024D713 /* SceneDelegate.swift */,
 				0236DD63286AF1E10024D713 /* ViewController.swift */,
-				0236DD65286AF1E10024D713 /* Main.storyboard */,
+				0236DD77286B302B0024D713 /* jsonCall.swift */,
+				0236DD832876C0CA0024D713 /* tableViewCell.swift */,
+				028E6A44287C51D3008A7600 /* Main.storyboard */,
 				0236DD68286AF1E20024D713 /* Assets.xcassets */,
 				0236DD6A286AF1E20024D713 /* LaunchScreen.storyboard */,
+				020C817528854AD900B06218 /* GoogleService-Info.plist */,
 				0236DD6D286AF1E20024D713 /* Info.plist */,
+				028E6A4A287C5C4E008A7600 /* RestaurantDetailsSwiftUIView.swift */,
+				028E6A4E287C5F1E008A7600 /* RestaurantDetailViewController.swift */,
+				020C8173288547A300B06218 /* AddRestaurantsViewController.swift */,
 			);
 			path = RestaurantReviewApp;
+			sourceTree = "<group>";
+		};
+		C0B0CED71E2A11A87274341E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11E37A9715B27CF23A494B82 /* Pods_RestaurantReviewApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB374D8266EEF23AE43E96A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73E544B115C0259D50443708 /* Pods-RestaurantReviewApp.debug.xcconfig */,
+				B275F1EF246393E13CC64945 /* Pods-RestaurantReviewApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +134,28 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0236DD70286AF1E20024D713 /* Build configuration list for PBXNativeTarget "RestaurantReviewApp" */;
 			buildPhases = (
+				BA22925C08E80194EE28A8D3 /* [CP] Check Pods Manifest.lock */,
 				0236DD58286AF1E10024D713 /* Sources */,
 				0236DD59286AF1E10024D713 /* Frameworks */,
 				0236DD5A286AF1E10024D713 /* Resources */,
+				F997D9B8FDE4DDA6F940FAD0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RestaurantReviewApp;
+			packageProductDependencies = (
+				02451DD32885000500520910 /* FirebaseAnalytics */,
+				02451DD52885000500520910 /* FirebaseAnalyticsOnDeviceConversion */,
+				02451DD72885000500520910 /* FirebaseAnalyticsSwift */,
+				02451DD92885000500520910 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				02451DDB2885000500520910 /* FirebaseFirestore */,
+				02451DDD2885000500520910 /* FirebaseFirestoreCombine-Community */,
+				02451DDF2885000500520910 /* FirebaseFirestoreSwift */,
+				02451DE12885000500520910 /* FirebaseStorage */,
+				02451DE32885000500520910 /* FirebaseStorageCombine-Community */,
+			);
 			productName = RestaurantReviewApp;
 			productReference = 0236DD5C286AF1E10024D713 /* RestaurantReviewApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +184,9 @@
 				Base,
 			);
 			mainGroup = 0236DD53286AF1E10024D713;
+			packageReferences = (
+				02451DD22885000500520910 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 0236DD5D286AF1E10024D713 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,35 +202,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				0236DD6C286AF1E20024D713 /* LaunchScreen.storyboard in Resources */,
+				020C817628854AD900B06218 /* GoogleService-Info.plist in Resources */,
 				0236DD69286AF1E20024D713 /* Assets.xcassets in Resources */,
-				0236DD67286AF1E10024D713 /* Main.storyboard in Resources */,
+				028E6A45287C51D3008A7600 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA22925C08E80194EE28A8D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RestaurantReviewApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F997D9B8FDE4DDA6F940FAD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RestaurantReviewApp/Pods-RestaurantReviewApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RestaurantReviewApp/Pods-RestaurantReviewApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RestaurantReviewApp/Pods-RestaurantReviewApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0236DD58286AF1E10024D713 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				028E6A4B287C5C4E008A7600 /* RestaurantDetailsSwiftUIView.swift in Sources */,
 				0236DD64286AF1E10024D713 /* ViewController.swift in Sources */,
+				0236DD842876C0CA0024D713 /* tableViewCell.swift in Sources */,
 				0236DD60286AF1E10024D713 /* AppDelegate.swift in Sources */,
 				0236DD62286AF1E10024D713 /* SceneDelegate.swift in Sources */,
+				020C8174288547A300B06218 /* AddRestaurantsViewController.swift in Sources */,
+				028E6A4F287C5F1E008A7600 /* RestaurantDetailViewController.swift in Sources */,
+				0236DD78286B302B0024D713 /* jsonCall.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0236DD65286AF1E10024D713 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0236DD66286AF1E10024D713 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0236DD6A286AF1E20024D713 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +398,7 @@
 		};
 		0236DD71286AF1E20024D713 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E544B115C0259D50443708 /* Pods-RestaurantReviewApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,6 +410,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +428,7 @@
 		};
 		0236DD72286AF1E20024D713 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B275F1EF246393E13CC64945 /* Pods-RestaurantReviewApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,6 +440,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +478,65 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		02451DD22885000500520910 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		02451DD32885000500520910 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02451DD22885000500520910 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		02451DD52885000500520910 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02451DD22885000500520910 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		02451DD72885000500520910 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02451DD22885000500520910 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		02451DD92885000500520910 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02451DD22885000500520910 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		02451DDB2885000500520910 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02451DD22885000500520910 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		02451DDD2885000500520910 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02451DD22885000500520910 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		02451DDF2885000500520910 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02451DD22885000500520910 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		02451DE12885000500520910 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02451DD22885000500520910 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		02451DE32885000500520910 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02451DD22885000500520910 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0236DD54286AF1E10024D713 /* Project object */;
 }

@@ -1,0 +1,20 @@
+//
+//  restaurantDetailsUIView.swift
+//  RestaurantReviewApp
+//
+//  Created by Deniz Demirtas on 7/11/22.
+//
+
+import SwiftUI
+
+struct restaurantDetailsUIView: View {
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+}
+
+struct restaurantDetailsUIView_Previews: PreviewProvider {
+    static var previews: some View {
+        restaurantDetailsUIView()
+    }
+}

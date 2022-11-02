@@ -6,13 +6,23 @@
 //
 
 import UIKit
+import FirebaseCore
+import FirebaseStorage
+import VisilabsIOS
 
-@main
+
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        FirebaseApp.configure()
+        Visilabs.createAPI(organizationId: "676D325830564761676D453D", profileId: "356467332F6533766975593D"
+               , dataSource: "visistore", inAppNotificationsEnabled: true, channel: "IOS"
+               , requestTimeoutInSeconds: 30, geofenceEnabled: true, maxGeofenceCount: 20, isIDFAEnabled: true)
+
+    
         // Override point for customization after application launch.
         return true
     }

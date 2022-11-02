@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (5.6.1)
+  - Euromsg (2.6.1)
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
+  - SDWebImageSwiftUI (2.0.2):
+    - SDWebImage (~> 5.10)
+  - SwiftyJSON (5.0.1)
+  - VisilabsIOS (3.7.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Euromsg
+  - SDWebImageSwiftUI
+  - SwiftyJSON
+  - VisilabsIOS
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Euromsg
+    - SDWebImage
+    - SDWebImageSwiftUI
+    - SwiftyJSON
+    - VisilabsIOS
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  Euromsg: 2414b3b652a9b01da5f9a13380be9f01eb8b354b
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
+  SDWebImageSwiftUI: 8a3923c95108312b03a599ec1498754af55a6819
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  VisilabsIOS: 42fca87f10c23cfead386f326df3b8bb001df37e
+
+PODFILE CHECKSUM: 8300ce8cdc4592f34b425fbd5b54910c92ae75fd
+
+COCOAPODS: 1.11.3
